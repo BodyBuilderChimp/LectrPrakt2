@@ -1,1 +1,1 @@
-# os_labs2
+# LectrPrakt2
