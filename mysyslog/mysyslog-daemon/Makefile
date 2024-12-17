@@ -1,13 +1,13 @@
 CC = gcc
 CFLAGS = -Wall -Werror -I../libmysyslog/include
 LDFLAGS = -L../libmysyslog -L../libmysyslog-text -L../libmysyslog-json
-LDLIBS = /home/katia/myproject/mysyslog/libmysyslog/libmysyslog.a /home/katia/myproject/mysyslog/libmysyslog-text/libmysyslog-text.a /home/katia/myproject/mysyslog/libmysyslog-json/libmysyslog-json.a
+LDLIBS = /home/dungeonmaster/myproject/mysyslog/libmysyslog/libmysyslog.a /home/dungeonmaster/myproject/mysyslog/libmysyslog-text/libmysyslog-text.a /home/dungeonmaster/myproject/mysyslog/libmysyslog-json/libmysyslog-json.a
 TARGET = mysyslog-daemon
 SRC = src/mysyslog-daemon.c
 OBJ = $(SRC:.c=.o)
 DEB_DIR = mysyslog-daemon_deb
 
-CONFIG_FILE = /home/katia/myproject/mysyslog/config/mysyslog.cfg
+CONFIG_FILE = /home/dungeonmaster/myproject/mysyslog/config/mysyslog.cfg
 
 all: $(TARGET)
 
