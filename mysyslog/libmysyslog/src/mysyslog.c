@@ -1,6 +1,6 @@
-#include "/home/katia/myproject/mysyslog/libmysyslog/include/mysyslog.h"
-#include "/home/katia/myproject/mysyslog/libmysyslog-text/include/libmysyslog-text.h"
-#include "/home/katia/myproject/mysyslog/libmysyslog-json/include/libmysyslog-json.h"
+#include "/home/dungeonmaster/myproject/mysyslog/libmysyslog/include/mysyslog.h"
+#include "/home/dungeonmaster/myproject/mysyslog/libmysyslog-text/include/libmysyslog-text.h"
+#include "/home/dungeonmaster/myproject/mysyslog/libmysyslog-json/include/libmysyslog-json.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
