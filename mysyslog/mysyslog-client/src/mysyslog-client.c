@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <getopt.h>
-#include "/home/katia/myproject/mysyslog/libmysyslog/include/mysyslog.h"
+#include "/home/dungeonmaster/myproject/mysyslog/libmysyslog/include/mysyslog.h"
 
 int main(int argc, char *argv[]) {
     char *message = NULL;
