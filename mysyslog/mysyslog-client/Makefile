@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Werror -I../libmysyslog/include
 LDFLAGS = -L../libmysyslog -L../libmysyslog-text -L../libmysyslog-json
-LDLIBS = /home/dungeonmaster/myproject/mysyslog/libmysyslog/libmysyslog.a /home/katia/myproject/mysyslog/libmysyslog-text/libmysyslog-text.a /home/katia/myproject/mysyslog/libmysyslog-json/libmysyslog-json.a
+LDLIBS = /home/dungeonmaster/myproject/mysyslog/libmysyslog/libmysyslog.a /home/dungeonmaster/myproject/mysyslog/libmysyslog-text/libmysyslog-text.a /home/dungeonmaster/myproject/mysyslog/libmysyslog-json/libmysyslog-json.a
 TARGET = mysyslog-client
 SRC = src/mysyslog-client.c
 OBJ = $(SRC:.c=.o)
