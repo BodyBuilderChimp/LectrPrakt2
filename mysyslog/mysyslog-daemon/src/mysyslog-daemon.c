@@ -1,4 +1,4 @@
-#include "/home/katia/myproject/mysyslog/libmysyslog/include/mysyslog.h"
+#include "/home/dungeonmaster/myproject/mysyslog/libmysyslog/include/mysyslog.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
