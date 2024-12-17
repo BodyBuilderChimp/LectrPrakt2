@@ -1,4 +1,4 @@
-#include "/home/katia/myproject/mysyslog/libmysyslog-json/include/libmysyslog-json.h"
+#include "/home/dungeonmaster/myproject/mysyslog/libmysyslog-json/include/libmysyslog-json.h"
 #include <stdio.h>
 #include <time.h>
 
